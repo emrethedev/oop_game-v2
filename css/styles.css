@@ -1,5 +1,13 @@
 /* Main styles */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&Roboto:300');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&Roboto:300'); */
+
+@font-face {
+  font-family: 'Solway';
+  src: url('fonts/Solway-Regular.woff2') format('woff2'),
+      url('fonts/Solway-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Variables */
 
@@ -20,7 +28,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Solway', sans-serif;
 }
 
 body {
@@ -176,11 +184,11 @@ button {
 }
 
 .title {
-  color: #FFF;
+  color: #FDD280;
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: #2f2d2b;
 }
 
 .start a {
